@@ -8,7 +8,7 @@
 // 1. Seleksi Elemen DOM Utama
 const tabelBody = document.getElementById('tabel-body-mahasiswa');
 const inputSearch = document.getElementById('input-search');
-const totalBadge = document.getElementById('total-mahasiswa-badge');
+
 
 
 // Helper: Menampilkan Pesan Notifikasi Dinamis
