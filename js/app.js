@@ -197,12 +197,11 @@ if (formTambah) {
 
         const dataMahasiswa = {
             // Percobaan 6-2 Langkah 4
-            const dataMahasiswa = {
-                npm: document.getElementById('npm').value.trim(),
-                nama: document.getElementById('nama').value.trim(),
-                program_studi: document.getElementById('program_studi').value,
-                angkatan: parseInt(document.getElementById('angkatan').value, 10),
-                email: document.getElementById('email').value.trim()
+            npm: document.getElementById('npm').value.trim(),
+            nama: document.getElementById('nama').value.trim(),
+            program_studi: document.getElementById('program_studi').value,
+            angkatan: parseInt(document.getElementById('angkatan').value, 10),
+            email: document.getElementById('email').value.trim()
         };
 
         try {
